@@ -37,7 +37,7 @@ public class UserBean implements Serializable {
     
     public String getGreeting() { 
         String x = "";
-      if ("Male".equals(getGender().toLowerCase()) || "male".equals(getGender()))
+      if ("Male".equals(getGender()) || "male".equals(getGender()))
           x = "Mr. ";
       else if ("Female".equals(getGender()) || "female".equals(getGender()))
           x = "Ms. "; 
